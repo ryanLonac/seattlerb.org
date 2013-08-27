@@ -8,7 +8,6 @@ class TalksController < ApplicationController
   end
 
   def create
-
     @talk = Talk.new(params[:talk])
 
     if @talk.save
